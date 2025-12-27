@@ -4,7 +4,6 @@ from pathlib import Path
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-# Resolve paths relative to this file so it works no matter the CWD
 BASE_DIR = Path(__file__).resolve().parent
 DATA_PATH = BASE_DIR / "data.csv"
 MODEL_DIR = BASE_DIR.parent / "model"
