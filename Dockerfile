@@ -7,7 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Train the model during build so the runtime has model/model.pkl available
 RUN python training/train.py
 
 EXPOSE 8000
