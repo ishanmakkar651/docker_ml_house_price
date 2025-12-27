@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.model import predict_price   # ✅ FIXED IMPORT
+from app.model import predict_price   
 
 app = FastAPI()
 
